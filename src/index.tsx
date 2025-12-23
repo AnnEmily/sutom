@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from "react-dom";
-import Solver from "./Solver";
+import App from "./App";
 
 // const styleLink = document.createElement("link");
 // styleLink.rel = "stylesheet";
@@ -9,7 +9,7 @@ import Solver from "./Solver";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Solver />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
