@@ -1,0 +1,63 @@
+RENDUE A
+
+  - déplacer les fichiers src/dico/ vers public/dico/ ?
+    ... tester d'essai ... pourrait générer une erreur quelconque
+    ... meilleur : implémenter express
+        ... serveur simple. Voir le bridge ou webCC
+
+  - filtrage : améliorer
+    
+    ... respecter la casse d'entrée
+
+    ... filter indépendamment des diacritiques pour éviter d'ajouter 
+        des zillions de boutons
+  
+BUGS
+
+  - some position -> ask twice for the same letter
+    bug : word list shows words that dont have twice that letter
+  
+    ex : Spanish, 5 letters
+         exclude        : C E L M N O P Q S U Z 
+         include exact  : R(1) I(2) A(5)
+         include unsure : R
+
+         then word list shows : RIADA - RIATA
+
+  - some position -> ask for two letters
+    exclude one of these letters
+    bug : selector some is not removed    
+
+COMPONENTS
+
+  - PositionVariable selector : ajouter un widget "but not at", icône "..."
+
+  - diacriticInsensitive
+
+  - ajouter un sélecteur de règles d'extraction ?
+
+MAYBE
+
+  - i18-next ?
+
+  - statistiques de dictionnaire ?
+
+  - implémenter des tests
+
+  - introduire Redux pour éviter la propagation vers le haut ?
+
+USER CONVENIENCE
+
+  - ajouter des drapeaux au dropdown de langue
+
+  - ajouter des tooltips
+
+  - améliorer le help
+
+  - sauvegarder les preférences de l'utilisateur
+    ... localStorage ou ... 
+
+
+CODING TOOLS
+
+  - mettre sur git pour voir les fichiers modifiés
