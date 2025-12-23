@@ -1,2 +1,2 @@
-# sutom
-Tool to help solve word games
+# Sutom
+A tool to help solving word games
