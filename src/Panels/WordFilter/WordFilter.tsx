@@ -284,13 +284,7 @@ const WordFilter: React.FC<WordFilterProps> = (props) => {
 
     setPrettyList(prettyList);
     setWordCount(wordCount);
-  }, [
-    allowDuplicated,
-    wordList,
-    props.excluded,
-    props.included,
-    props.wordLength,
-  ]);
+  }, [allowDuplicated, wordList, props.excluded, props.included, props.wordLength, props.language]);
 
   //----------------------------------------------------------------
   // Render
