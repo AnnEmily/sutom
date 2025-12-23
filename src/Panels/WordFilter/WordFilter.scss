@@ -1,0 +1,49 @@
+//@import '../../shared';
+
+.WordFilter {
+  
+  padding-bottom: 10px;
+
+  .controls {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-bottom: 10px;
+
+    font-size: 1rem;
+
+    .count {
+      display : flex;
+      flex-direction: row;
+      justify-content: flex-end;
+
+      .label, .value {
+        padding-right: 0.5em;
+      }
+    }
+
+    .ui.checkbox {
+      &.checked {
+        input + label::before {
+          background: #F99797;
+        }
+      }
+    }
+  }
+
+  .list .textarea {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 6em;
+
+    border-radius: 5px;
+    padding: 7px;
+    margin-bottom: -5px;
+
+    font-family: "Lato";
+    font-size: 10pt;
+    font-weight: bold;
+    color: #424242;
+  }
+}

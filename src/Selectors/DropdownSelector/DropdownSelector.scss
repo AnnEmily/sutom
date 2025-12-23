@@ -1,0 +1,38 @@
+.DropdownSelector {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  .label {
+    font-size: 10pt;
+  }
+
+  .selector {
+    
+    .openIcon {
+      color: red;
+      // z-index: 1;
+      position: relative;
+      top: -45px;
+      // right: -15px;
+      left: 36px;
+    
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .ui.selection.dropdown {
+      min-width: 3em;
+      max-width: 3em;
+      padding-left: 0.8em;
+    }
+    
+    .ui .dropdown.icon:before {
+      margin-right: -8px;
+    }
+  }
+}
+
+// TODO : move inside DrodownSelector

@@ -1,0 +1,64 @@
+.CartridgeTop {
+
+  display : flex;
+  flex-direction: column;
+
+  .top {
+    display : flex;
+    justify-content: space-between;
+
+    .title {
+      font-size: 14pt;
+      font-weight: bold;
+      padding-bottom: 1em;
+    }
+
+    .icon {
+      cursor: pointer;
+
+      &.help {
+        background-color: #C7C711;
+        color: #1B2Ebb;
+        width: 18px;
+        height: 17px;
+        border-radius: 50%;
+
+        i {
+          position: relative;
+          bottom: 2px;
+        }
+      }
+
+      &.chevron {
+
+        i {
+          transition: transform 0.5s;
+        }
+
+        &.open{
+          i {
+            transform: rotate(180deg);
+          }
+        }
+      }
+    }
+  }
+
+  .info {
+    max-height: 0;
+    overflow: hidden;
+
+    transition-property: max-height;
+    transition-timing-function: ease-out;
+    transition-duration: 0.3s;
+
+    &.visible {
+      max-height: 50em;
+      transition-duration: 1s;
+    }
+
+    .content {
+      padding-bottom: 15px;
+    }
+  }
+}

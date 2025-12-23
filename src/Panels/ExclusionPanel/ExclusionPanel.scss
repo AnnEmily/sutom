@@ -1,0 +1,29 @@
+.ExclusionPanel {
+
+    &.colors-default {
+      .buttons .exclude {
+        button.active,
+        button.active:hover {
+          background-color: red !important;
+        }
+      }
+    }
+
+    &.colors-sutom {
+      .buttons .exclude {
+        button.active,
+        button.active:hover {
+          background-color: #0077C7 !important;
+        }
+      }
+    }
+
+    &.colors-wordle {
+      .buttons .exclude {
+        button.active,
+        button.active:hover {
+          background-color: #787C7E !important;
+        }
+      }
+    }
+}

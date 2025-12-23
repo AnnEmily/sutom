@@ -1,0 +1,21 @@
+French  :
+
+	https://raw.githubusercontent.com/words/an-array-of-french-words/master/index.json
+	(Sutom responses of correct answers, all in capitals :-( )
+
+English :
+
+	https://svnweb.freebsd.org/csrg/share/dict/words?view=log
+	https://raw.githubusercontent.com/words/an-array-of-english-words/master/index.json
+
+Spanish :
+
+	https://raw.githubusercontent.com/words/an-array-of-spanish-words/master/index.json
+
+German :
+
+	https://gist.github.com/MarvinJWendt/2f4f4154b8ae218600eb091a5706b5f4
+
+Others  :
+
+- Sort by length : https://www.browserling.com/tools/line-length-sort

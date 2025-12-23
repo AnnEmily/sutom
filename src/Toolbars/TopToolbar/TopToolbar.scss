@@ -1,0 +1,16 @@
+//@import '../../shared.scss';
+
+.TopToolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  font-weight: bold;
+
+  // margin-top: -5px;
+  // margin-bottom: -15px;
+
+  .icon {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,54 @@
+
+.PositionSpecifier {
+  display: flex;
+
+  &:not(:last-child) {
+    padding-bottom: 16px;
+  }
+
+  .label-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 10px;
+
+    &.labeled {
+      padding-top: 18px;
+    }
+  }
+
+  .label {
+    font-weight: normal;
+  }
+  
+  .SelectorSet {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 8px;
+    flex-wrap: wrap;
+  
+    .singleSelector {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+ 
+  .add-icon {
+    width: 3em;
+    height: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .icon:hover {
+      cursor: pointer;
+    }
+
+    .disabled.icon  {
+      cursor: default;
+    }
+  }
+}

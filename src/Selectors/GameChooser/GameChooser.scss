@@ -1,0 +1,20 @@
+
+// TODO merge with LengthChooser style to GameToolbar.scss ?
+
+.GameChooser {
+
+  display: flex;
+  flex-direction: row;
+
+  .ui {
+    .form .field label {
+      font-weight: bold;
+      font-size: 12pt;
+    }
+
+    // .selection.dropdown {
+    //   //min-width: 8em;
+    //   //max-width: 8em;
+    // }
+  }
+}

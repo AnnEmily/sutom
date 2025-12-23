@@ -1,0 +1,60 @@
+///----------------------------------------
+/// Colors
+///----------------------------------------
+
+$clear-background: #DDDDDD;
+$clear-midground: #A1A1A1;
+$clear-foreground: #1D2226;
+
+$dark-background: #1D2226;
+$dark-foreground: #FFFFFF;
+$dark-midground: #30383E;
+$dark-main-border-color: #a5a5a5;
+
+#root {
+
+  > *:not(.dark) {
+    background: $clear-background;
+    color: $clear-foreground;
+
+    transition: background-color 0.2s ease;
+
+    .ui.toggle.button {
+      border: 1px solid #7b7b7b !important;
+    }
+  }
+
+  .dark {
+    background: $dark-background;
+    color: $dark-foreground;
+
+    transition: background-color 0.2s ease;
+
+    /// TODO : move with .cartridge def below
+    .cartridge {
+      border-color: $dark-main-border-color;
+      background: $dark-midground;
+    }
+
+    .ui.checkbox label {
+      color: $dark-foreground !important;
+    }
+
+    .ui.labeled.input .ui.label.label {
+      background: $dark-midground !important;
+      color: $dark-foreground;
+    }
+
+    .ui.header {
+      color: $dark-foreground;
+    }
+
+    .ui.segment {
+      background: $dark-midground;
+    }
+
+    a {
+      color: #80c0ff;
+    }
+  }
+}

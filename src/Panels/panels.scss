@@ -1,0 +1,25 @@
+//@import '../shared';
+
+.LetterList {
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 5px;
+    row-gap: 12px;
+  }
+}
+
+///----------------------------------------
+/// Main panels
+///----------------------------------------
+
+.cartridge {
+  border: solid 2px gray;
+  border-radius: 8px;
+
+  padding: 10px 10px 14px 10px;
+
+  font-size: 12pt;
+}

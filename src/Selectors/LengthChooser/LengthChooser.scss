@@ -1,0 +1,17 @@
+.LengthChooser {
+
+  display: flex;
+  flex-direction: row;
+
+  .ui {
+    .form .field label {
+      font-weight: bold;
+      font-size: 12pt;
+    }
+
+    .selection.dropdown {
+      min-width: 5em;
+      max-width: 5em;
+    }
+  }
+}

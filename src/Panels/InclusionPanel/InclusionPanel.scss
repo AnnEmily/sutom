@@ -1,0 +1,60 @@
+.InclusionPanel {
+ 
+  &.colors-default {
+    .PositionFixed .selected {
+      .ui.selection.dropdown {
+        background-color: limegreen;
+      }
+    }
+
+    .PositionVariable .selected {
+      .ui.selection.dropdown {
+        background-color: #fbbd08;
+      }
+    }
+  }
+
+  &.colors-sutom {
+    .PositionFixed .selected {
+      .ui.selection.dropdown {
+        background-color: #E7002A;
+        .menu>.item .text {
+          color: black;
+        }
+      }
+      .text {
+        color: white;
+        font-weight: bold;
+      }
+      // .icon::before {
+      //   color: white;
+      // }
+    }
+
+    .PositionVariable .selected {
+      .ui.selection.dropdown {
+        background-color: #FFBD00;
+      }
+      .text {
+        //color: white;
+        font-weight: bold;
+      }
+    }
+  }
+
+  &.colors-wordle {
+    .PositionFixed .selected {
+      .ui.selection.dropdown {
+        // background-color: #6AAA64;
+        background-color: #5ca755;
+      }
+    }
+
+    .PositionVariable .selected {
+      .ui.selection.dropdown {
+        // background-color: #C9B458;
+        background-color: #ad9738;
+      }
+    }
+  }
+}

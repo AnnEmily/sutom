@@ -1,0 +1,37 @@
+@import '../../shared.scss';
+
+.dark .ThemeChooser {
+
+  svg[data-testid="DarkModeTwoToneIcon"] {
+    
+    // shape -> inside
+    path:first-child {
+      fill: $dark-background;
+      opacity: .5;
+
+      &:hover {
+        fill: $dark-foreground;  
+        opacity: 1;
+      }
+    }
+    // shape -> outline
+    path:last-child {
+      fill: $dark-foreground;
+    }
+  }
+}
+
+.ThemeChooser {
+
+  svg[data-testid="LightModeTwoToneIcon"] {
+
+    circle {
+      opacity: 0;
+
+      &:hover {
+        opacity: 1;
+        fill: $clear-foreground;  
+      }
+    }
+  }
+}
